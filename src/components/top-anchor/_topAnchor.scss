@@ -1,0 +1,25 @@
+.top-anchor{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 100%;
+    background-color: $primary;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    cursor: pointer;
+    transition-duration: .3s;
+    border: 2px solid $primary;
+
+    &:hover{
+        background-color: $white;
+
+        span{
+            color: $primary;
+        }
+    }
+
+    span{
+        color: $white;
+        text-transform: uppercase;
+    }
+}

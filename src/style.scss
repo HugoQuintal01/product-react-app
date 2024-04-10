@@ -1,0 +1,18 @@
+//Import files
+@import "./style/reset";
+@import "./style/variables";
+@import "./style/grid";
+@import "./style/fonts";
+
+// Import Components
+@import "./components/header/header";
+@import "./components/menu/menu";
+@import "./components/product-list/productList";
+@import "./components/top-anchor/topAnchor";
+@import "./products/[productId]/product";
+
+
+html {
+    scroll-behavior: smooth;
+}
+

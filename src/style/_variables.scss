@@ -1,0 +1,41 @@
+$titlesfont: "Poppins";
+$titlesfontweights: "300;400;500;600;800;900";
+$bodyfont: "Poppins";
+$bodyfontweights: "400";
+
+$primary: #353535;
+$secundary: #284b63;
+$third: #3c6e71;
+$neutral: #d9d9d930;
+$primary50: #35353550;
+$white: #ffffff;
+
+$animationtime: 0.3s;
+
+$tablet: 750px;
+$desktop: 1200px;
+
+$gridcolumns: 12;
+$gridgutter: 30px;
+
+$gridwidth: 100%;
+$gridwidtht: 90%;
+$gridwidthd: $desktop - $gridgutter;
+
+$icomoon-font-family: "editstore" !default;
+$icomoon-font-path: "../fonts" !default;
+
+$icn-star: "\f005";
+$icn-facebook: "\e900";
+$icn-pinterest: "\e901";
+$icn-twitter: "\e902";
+$icn-chevron-down: "\e903";
+$icn-chevron-left: "\e904";
+$icn-chevron-right: "\e905";
+$icn-chevron-up: "\e906";
+$icn-heart: "\e907";
+$icn-minus: "\e908";
+$icn-plus: "\e909";
+$icn-reload: "\e90a";
+$icn-search: "\e90b";
+$icn-shopping-cart: "\e90c";

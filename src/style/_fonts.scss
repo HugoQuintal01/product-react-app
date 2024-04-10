@@ -1,0 +1,52 @@
+@import "../style/variables";
+@import url(https://fonts.googleapis.com/css2?family=#{$titlesfont}:wght@#{$titlesfontweights}&family=#{$bodyfont}:wght@#{$bodyfontweights}&display=swap);
+
+html{
+    font-family: $bodyfont, sans-serif;
+    color: $primary;
+    font-weight: 400;
+    line-height: 1.4;
+    font-size: 14px;
+    @media(min-width: $tablet){
+      font-size: 15px;
+    }
+    @media(min-width: $desktop){
+      font-size: 16px;
+    }
+}
+
+/* ======================== */
+/* ======= HEADINGS ======= */
+/* ======================== */
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6{
+  font-family: $titlesfont, sans-serif;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.414;
+}
+h1, .h1, h2, .h2{
+  font-size: 2.2rem;
+}
+
+p, li, div, span, a{
+  font-family: $titlesfont, sans-serif;
+  text-decoration: none;
+}
+
+*{
+  font-family: $titlesfont, sans-serif;
+  color: $primary;
+}
+
+/* ============================== */
+/* ======= TEXT ALIGNMENT ======= */
+/* ============================== */
+.textleft{
+  text-align: left;
+}
+.textcenter{
+  text-align: center;
+}
+.textright{
+  text-align: right;
+}
