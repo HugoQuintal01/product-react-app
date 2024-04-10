@@ -1,0 +1,45 @@
+$mobile-breakpoint: 768px;
+$tablet-breakpoint: 768px;
+$laptop-breakpoint: 992px;
+$desktop-breakpoint: 1200px;
+
+
+// Mobile styles (from tablet breakpoint and up)
+@media (max-width: $mobile-breakpoint) {
+  
+    
+
+}
+
+// Tablet styles (from tablet breakpoint and up)
+@media (min-width: $tablet-breakpoint) {
+  
+    body .container-product .product-info{
+        margin-top: 60px;
+    }
+
+    body .container-product .product-info .product-title{
+        font-size: 3em;
+    }
+
+}
+
+// Laptop styles (from laptop breakpoint and up)
+@media (min-width: $laptop-breakpoint) {
+  
+    body .product-list .product{
+        padding: 30px 20px;
+    }
+
+    body .container-product .product-info .product-title{
+        font-size: 3em;
+    }
+
+}
+
+// Desktop styles (from desktop breakpoint and up)
+@media (min-width: $desktop-breakpoint) {
+  
+
+
+}

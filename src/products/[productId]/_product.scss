@@ -1,5 +1,6 @@
 .container-product{
     margin-top: 50px;
+    margin-bottom: 50px;
 
     .image-section{
         display: flex;
@@ -116,6 +117,7 @@
 @media only screen and (max-width: 600px) {
 
     body .container-product{
+        
 
         .image-section{
             padding: 0 20px;

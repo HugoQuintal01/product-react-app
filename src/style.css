@@ -521,6 +521,22 @@ p, li, div, span, a {
   text-align: right;
 }
 
+@media (min-width: 768px) {
+  body .container-product .product-info {
+    margin-top: 60px;
+  }
+  body .container-product .product-info .product-title {
+    font-size: 3em;
+  }
+}
+@media (min-width: 992px) {
+  body .product-list .product {
+    padding: 30px 20px;
+  }
+  body .container-product .product-info .product-title {
+    font-size: 3em;
+  }
+}
 .titles-section {
   padding: 100px 0;
 }
@@ -901,6 +917,7 @@ p, li, div, span, a {
 
 .container-product {
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 .container-product .image-section {
   display: flex;
