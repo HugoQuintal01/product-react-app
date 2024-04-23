@@ -18,3 +18,7 @@ This project is a React-based e-commerce application that enables users to brows
 - React Router: Library for handling client-side routing in React applications.
 - HTML/SCSS: Markup and styling languages for structuring and designing the user interface.
 - Fake Store API: Provides mock data for products, simulating an e-commerce store environment.
+
+
+### Demo
+- https://hugoquintal01.github.io/product-react-app/
